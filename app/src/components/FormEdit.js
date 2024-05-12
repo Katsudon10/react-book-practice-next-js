@@ -20,7 +20,7 @@ export default function FormEdit({src: {id,read,memo}}){
             <button type="submit"
                 className="bg-blue-600 text-white rounded px-4 py-2 mr-2 hover:bg-blue-500">
                 登録</button>
-                <button type="submit"
+                <button type="button"
                     className="bg-red-600 text-white rounded px-4 py-2 hover:bg-red-500"
                     onClick={()=>{
                         startTransition(() => removeReview(id));
